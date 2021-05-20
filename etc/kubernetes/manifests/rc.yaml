@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   creationTimestamp: 
   managedFields: []
-  name: rc-latest
+  name: rc-v1.1
   namespace:
   resourceVersion: 
   selfLink: 
@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: php
-          image: 'index.docker.io/franmvida/santander-phpinfo:latest'
+          image: 'index.docker.io/franmvida/santander-phpinfo:1.1'
           ports:
             - containerPort: 8080
               protocol: TCP

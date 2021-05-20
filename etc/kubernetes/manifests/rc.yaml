@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   creationTimestamp: 
   managedFields: []
-  name: rc
+  name: rc-latest
   namespace:
   resourceVersion: 
   selfLink: 

@@ -2,9 +2,10 @@ apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 metadata:
   creationTimestamp: 
+#  managedFields: []
   name: dc-latest
   namespace:
-  resourceVersion: 
+#  resourceVersion: 
   selfLink: 
   uid: 4931a06c-5a57-41fc-b436-2b13b688a86e
 spec:

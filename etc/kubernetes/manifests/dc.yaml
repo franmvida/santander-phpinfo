@@ -5,7 +5,7 @@ metadata:
 #  managedFields: []
   name: dc-latest
   namespace:
-  resourceVersion: latest
+  resourceVersion: 0
   selfLink: 
   uid: 4931a06c-5a57-41fc-b436-2b13b688a86e
 spec:
